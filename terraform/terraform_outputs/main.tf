@@ -1,5 +1,5 @@
 module "groups" {
-  source = "./modules/droplet-lb"
+  source = "modules\/droplet-lb"
   # Define three GROUPS of three droplets and a balancer
   count = 3
 

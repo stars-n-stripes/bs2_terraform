@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38fd108f-4717-4f52-90d2-7ae77727742d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/bs2_terraform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/terraform-provider-digitalocean_v2.2.0" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/2.2.0/linux_amd64/terraform-provider-digitalocean_v2.2.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/plugins/registry.terraform.io/hashicorp/external/2.0.0/linux_amd64/terraform-provider-external_v2.0.0_x5" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/registry.terraform.io/hashicorp/external/2.0.0/linux_amd64/terraform-provider-external_v2.0.0_x5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform/plugins/selections.json" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/selections.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archived_projects/terraform_flexibility.zip" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/archived_projects/terraform_flexibility.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archived_projects/terraform_outputs.zip" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/archived_projects/terraform_outputs.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archived_projects/terraform_test.zip" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/archived_projects/terraform_test.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/.terraform/modules/modules.json" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/.terraform/modules/modules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/terraform-provider-digitalocean_v1.22.2" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/.terraform/plugins/registry.terraform.io/digitalocean/digitalocean/1.22.2/linux_amd64/terraform-provider-digitalocean_v1.22.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/.terraform/plugins/selections.json" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/.terraform/plugins/selections.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/droplets.tf.old" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/droplets.tf.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/modules/droplet-lb/droplets.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/modules/droplet-lb/droplets.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/modules/droplet-lb/lb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/modules/droplet-lb/lb.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/modules/droplet-lb/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/modules/droplet-lb/outputs.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/modules/droplet-lb/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/modules/droplet-lb/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/modules/droplet-lb/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/modules/droplet-lb/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/outputs.tf.old" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/outputs.tf.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/provider.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/terraform.tfstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/terraform.tfstate.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_outputs/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/terraform_outputs/variables.tf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="1a3d6a0e-b56a-4498-949c-41b3b5ab132e" />
+  <component name="ProjectId" id="1kzgBpQbfUVkHneiO2B4y59daMK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="bs2_terraform" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bs2_terraform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38fd108f-4717-4f52-90d2-7ae77727742d" name="Default Changelist" comment="" />
+      <created>1606708700701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606708700701</updated>
+      <workItem from="1606708702630" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
