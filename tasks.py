@@ -1,0 +1,17 @@
+from bs2_terraform.celery import app
+
+#Boilerplate from celery docs
+
+@app.task
+def add(x, y):
+    return x + y
+
+
+@app.task
+def mul(x, y):
+    return x * y
+
+
+@app.task
+def xsum(numbers):
+    return sum(numbers)

@@ -4,6 +4,9 @@
 + https://www.digitalocean.com/community/tutorials/how-to-structure-a-terraform-project
 + [Multi-stage course](https://www.digitalocean.com/community/tutorial_series/how-to-manage-infrastructure-with-terraform)
 
+## Docker (Compose) Notes
++ From the Docker Compose docs:
+    + "By default Compose sets up a single network for your app. Each container for a service joins the default network and is both reachable by other containers on that network, and discoverable by them at a hostname identical to the container name."
 
 ## General Notes
 + non-terraform (HCL) scripts you call should go in an "external" directory

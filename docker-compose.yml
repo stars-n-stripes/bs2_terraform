@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+#  rabbit:
+#    image: library/rabbitmq:3.8.9-alpine
+#    hostname: bs2-rabbit
+#    container_name: rabbit1
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      "8000:8000"
+    depends_on:
+      - db
+
+  celery:
+    build: ./project
+    command: celery worker --app=core --loglevel=info
+    volumes:
+      - ./project:/usr/src/app
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=9_1p8!^kt*lg&_*@+wb64u%sn$ommn_9=!g^1^sd@rt3!9zcqo
+      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+      - CELERY_BROKER=redis://redis:6379/0
+      - CELERY_BACKEND=redis://redis:6379/0
+    depends_on:
+      - web
+      - redis
+
+  redis:
+    image: redis:5-alpine
