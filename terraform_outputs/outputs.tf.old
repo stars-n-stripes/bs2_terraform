@@ -1,0 +1,17 @@
+output "droplet_ip_address" {
+  #  value = {
+  # for droplet in digitalocean_droplet.web:
+  # # Note that this is the format for a map (i.e. HashMap)
+  # droplet.name => droplet.ipv4_address
+  #}
+
+    # Use "sensitive" for when the output needs to be masked
+    # The output will still be accessible when queried directly
+    # or when you view the Terraform state
+    #sensitive = true
+
+  # "splat" expressions will automatically iterate thorugh a list and return the
+  # attribute that follows the expression as an output
+  value = digitalocean_droplet.web[*].ipv4_address
+
+  }
